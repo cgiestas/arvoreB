@@ -1,0 +1,34 @@
+Elemento com chave 23 encontrado.
+Elemento com chave 45 encontrado.
+Nova locacao (cod: 1) criada para o cliente 23 e computador 45.
+Status do computador 45 atualizado para indisponivel.
+Busca por locacoes do cliente 23 realizada. 2 encontradas.
+Locacao 1 finalizada.
+Computador 1 disponibilizado.
+Busca por locacoes do cliente 23 realizada. 2 encontradas.
+Locacao 1000 finalizada.
+Computador 1000 disponibilizado.
+Elemento com chave 45 encontrado.
+Elemento com chave 1 encontrado.
+Elemento com chave 4 encontrado.
+Nova locacao (cod: 1) criada para o cliente 1 e computador 4.
+Status do computador 4 atualizado para indisponivel.
+Busca por locacoes do cliente 1 realizada. 2 encontradas.
+Locacao 1 finalizada.
+Computador 1 disponibilizado.
+Busca por locacoes do cliente 1 realizada. 2 encontradas.
+Info: Tentativa de finalizar locacao 1 que ja esta inativa.
+Busca por locacoes do cliente 1 realizada. 2 encontradas.
+Elemento com chave 1 encontrado.
+Elemento com chave 2 encontrado.
+Nova locacao (cod: 6) criada para o cliente 1 e computador 2.
+Status do computador 2 atualizado para indisponivel.
+Busca por locacoes do cliente 1 realizada. 2 encontradas.
+Elemento com chave 900 encontrado.
+Elemento com chave 997 encontrado.
+Nova locacao (cod: 751) criada para o cliente 900 e computador 997.
+Status do computador 997 atualizado para indisponivel.
+Busca por locacoes do cliente 990 realizada. 1 encontradas.
+Busca por locacoes do cliente 900 realizada. 2 encontradas.
+Locacao 751 finalizada.
+Computador 751 disponibilizado.

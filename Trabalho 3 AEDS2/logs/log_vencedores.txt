@@ -1,0 +1,28 @@
+[2025-07-29 08:00:47] Iniciando arvore de vencedores.
+[2025-07-29 08:00:47] Intercalacao concluida com sucesso em 0.03 segundos.
+[2025-07-29 08:31:14] Iniciando arvore de vencedores.
+[2025-07-29 08:31:14] Intercalacao concluida com sucesso em 0.02 segundos.
+[2025-07-29 09:05:24] Iniciando arvore de vencedores.
+[2025-07-29 09:05:24] Todos os arquivos de partições foram fechados.
+[2025-07-29 09:05:24] Intercalacao concluida com sucesso em 0.02 segundos.
+[2025-07-29 09:07:56] Iniciando arvore de vencedores.
+[2025-07-29 09:07:56] Todos os arquivos de partições foram fechados.
+[2025-07-29 09:07:56] Intercalacao concluida com sucesso em 0.00 segundos.
+[2025-07-30 09:48:55] Iniciando arvore de vencedores.
+[2025-07-30 09:48:55] Todos os arquivos de partições foram fechados.
+[2025-07-30 09:48:55] Intercalacao concluida com sucesso em 0.01 segundos.
+[2025-07-30 09:54:17] Iniciando arvore de vencedores.
+[2025-07-30 09:54:17] Todos os arquivos de partições foram fechados.
+[2025-07-30 09:54:17] Intercalacao concluida com sucesso em 0.01 segundos.
+[2025-07-30 09:58:59] Iniciando arvore de vencedores.
+[2025-07-30 09:58:59] Todos os arquivos de partições foram fechados.
+[2025-07-30 09:58:59] Intercalacao concluida com sucesso em 0.38 segundos.
+[2025-07-30 10:00:38] Iniciando arvore de vencedores.
+[2025-07-30 10:00:39] Todos os arquivos de partições foram fechados.
+[2025-07-30 10:00:39] Intercalacao concluida com sucesso em 0.34 segundos.
+[2025-07-30 10:03:37] Iniciando arvore de vencedores.
+[2025-07-30 10:03:37] Todos os arquivos de partições foram fechados.
+[2025-07-30 10:03:37] Intercalacao concluida com sucesso em 0.09 segundos.
+[2025-07-30 10:11:29] Iniciando arvore de vencedores.
+[2025-07-30 10:11:29] Todos os arquivos de partições foram fechados.
+[2025-07-30 10:11:29] Intercalacao concluida com sucesso em 0.10 segundos.

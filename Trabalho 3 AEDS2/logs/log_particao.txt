@@ -1,0 +1,18 @@
+[2025-07-29 08:00:06] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-29 08:00:07] Particoes geradas com sucesso em 1.01 segundos.
+[2025-07-29 08:30:06] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-29 08:30:07] Particoes geradas com sucesso em 1.16 segundos.
+[2025-07-29 09:04:46] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-29 09:04:46] 91 particoes geradas com sucesso em 0.57 segundos.
+[2025-07-29 09:06:54] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-29 09:06:54] 2 particoes geradas com sucesso em 0.01 segundos.
+[2025-07-30 09:48:43] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-30 09:48:43] 2 particoes geradas com sucesso em 0.02 segundos.
+[2025-07-30 09:54:03] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-30 09:54:03] 1 particoes geradas com sucesso em 0.01 segundos.
+[2025-07-30 09:57:43] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-30 09:57:55] 906 particoes geradas com sucesso em 11.64 segundos.
+[2025-07-30 10:03:12] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-30 10:03:18] 447 particoes geradas com sucesso em 5.51 segundos.
+[2025-07-30 10:11:19] Iniciando geracao de particoes por selecao com substituicao.
+[2025-07-30 10:11:25] 459 particoes geradas com sucesso em 5.65 segundos.
