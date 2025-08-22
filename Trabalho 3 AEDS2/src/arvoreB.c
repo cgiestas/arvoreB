@@ -205,32 +205,8 @@ void inserir_naoCheio(TArvoreB *arvore, long endereco_no, int ch)
     }
 }
 
-/* ===========================================================
-   Funções pedidas: exclusão, redistribuição e concatenação
-   (baseadas no PDF anexo – Szwarcfiter & Markezon, cap. Árvore B)
-   Somente ACRESCENTAR ao arquivo. Não altera nada existente.
-   =========================================================== */
-
 #ifndef D_ARVOREB_DELETE_REDIS_CONCAT
 #define D_ARVOREB_DELETE_REDIS_CONCAT
-
-/* Assinaturas já existentes no arquivo (usadas aqui):
-   void ler_no(TArvoreB *arvore, long endereco, TNo *destino);
-   void escreve_no(TArvoreB *arvore, long endereco, TNo *no);
-
-   Estruturas esperadas:
-   typedef struct No {
-       int m;
-       bool eh_folha;
-       int  s[MAX_CHAVES];
-       long p[MAX_FILHOS];
-   } TNo;
-
-   typedef struct {
-       FILE *arquivo;
-       long raiz;
-   } TArvoreB;
-*/
 
 static int indice_busca_no(const TNo *no, int chave, int *achou) {
     int i = 0;
@@ -286,8 +262,7 @@ static void remove_do_pai_pos(TNo *pai, int pos_chave) {
     pai->m--;
 }
 
-/* =============== CONCATENAÇÃO (merge de irmãos) ==================
-   Concatena filho_esq (idx) com filho_dir (idx+1) usando a chave separadora do pai.
+/* Concatena filho_esq (idx) com filho_dir (idx+1) usando a chave separadora do pai.
    Propaga redução no pai (quanto necessário). Retorna o endereço do nó resultante (esquerdo).
 */
 static long concatenarB(TArvoreB *arvore, long end_pai, TNo *pai,
@@ -319,8 +294,7 @@ static long concatenarB(TArvoreB *arvore, long end_pai, TNo *pai,
     return end_esq;
 }
 
-/* ============== REDISTRIBUIÇÃO (re-balance entre irmãos) =================
-   Tenta redistribuir com irmão esquerdo (idx-1) ou direito (idx+1).
+/*   Tenta redistribuir com irmão esquerdo (idx-1) ou direito (idx+1).
    Se conseguir, ajusta pai e grava ambos os filhos. Retorna 1 se houve redistribuição.
 */
 static int redistribuirB(TArvoreB *arvore, long end_pai, TNo *pai,
@@ -425,8 +399,7 @@ static int redistribuirB(TArvoreB *arvore, long end_pai, TNo *pai,
     return 0; /* não foi possível redistribuir */
 }
 
-/* =============== AJUSTE PÓS-REMOÇÃO (underflow) ==================
-   Garante a propriedade (>= d chaves) para nós internos/folhas (exceto raiz).
+/* underflow: Garante a propriedade (>= d chaves) para nós internos/folhas (exceto raiz).
    Pode redistribuir ou concatenar, propagando ao pai conforme necessário.
    Retorna o endereço (possivelmente atualizado) do nó após o ajuste.
 */
@@ -475,8 +448,7 @@ static long ajustar_pos_remocao(TArvoreB *arvore,
     return end_result;
 }
 
-/* ===================== EXCLUSÃO (pública) ========================
-   Remove a chave 'ch' da árvore.
+/* EXCLUSAO (publica): Remove a chave 'ch' da árvore.
    – Se a raiz esvaziar e não for folha, desce um nível.
 */
 static long excluir_rec(TArvoreB *arvore, long end_no, int ch,
@@ -564,3 +536,4 @@ static long excluir_rec(TArvoreB *arvore, long end_no, int ch,
 }
 
 #endif /* D_ARVOREB_DELETE_REDIS_CONCAT */
+
