@@ -150,6 +150,34 @@ int main()
             vencedores_comp(cont_part, "computadores.dat");
             imprimeVencedores("computadores.dat");
             break;
+        case 10:
+            TArvoreB arvore;
+            criarArvore(&arvore, "dados.dat");
+
+            inserirB(&arvore, 10);
+            inserirB(&arvore, 20);
+            inserirB(&arvore, 5);
+            inserirB(&arvore, 6);
+            inserirB(&arvore, 12);
+            inserirB(&arvore, 30);
+
+            printf("Árvore após inserções:\n");
+            imprimirArvore(&arvore);
+
+            // ===== Testando exclusão =====
+            excluirB(&arvore, 6);
+            printf("\nÁrvore após excluir 6:\n");
+            imprimirArvore(&arvore);
+
+            excluirB(&arvore, 12);
+            printf("\nÁrvore após excluir 12:\n");
+            imprimirArvore(&arvore);
+
+            excluirB(&arvore, 30);
+            printf("\nÁrvore após excluir 30:\n");
+            imprimirArvore(&arvore);
+
+            fecharArvore(&arvore);
         case 0:
             printf("Saindo do programa...\n");
             break;
@@ -173,4 +201,5 @@ int main()
     fclose(log);
 
     return 0;
+
 }
